@@ -24,7 +24,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 
-        <div class="container-fluid">
+        <div class="container">
             
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,7 +57,7 @@
 
     </nav>
 
-    <main class="container-fluid">
+    <main class="container mb-5">
 
         <div class="row mt-5">
 
@@ -115,9 +115,15 @@
 
         <div class="row justify-content-center mt-4">
 
-            <div class="col-12">
+            <div class="col-12 col-md-6 col-lg-4">
 
-                <p id="display-error" class="text-danger">
+                <button id="search-btn" class="btn btn-primary w-100" name="search">Pesquisar</button>
+
+            </div>
+
+            <div class="col-12 mt-3">
+
+                <p id="display-error" class="text-danger text-center">
 
 
 
@@ -125,9 +131,19 @@
 
             </div>
 
-            <div class="col-12 col-md-6 col-lg-4">
+        </div>
 
-                <button id="search-btn" class="btn btn-primary w-100" name="search">Pesquisar</button>
+        <div class="row justify-content-center mt-5">
+
+            <h2 class="text-center">Lista de livros</h2>
+
+        </div>
+
+        <div class="row justify-content-center mt-5">
+
+            <div id="list" class="list-group col-12 p-0 container-fluid">
+
+                
 
             </div>
 
